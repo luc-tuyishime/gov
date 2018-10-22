@@ -1,14 +1,14 @@
 {
-  "main.css": "/gov/static/css/main.79d70cad.chunk.css",
-  "main.js": "/gov/static/js/main.d8382a34.chunk.js",
-  "main.js.map": "/gov/static/js/main.d8382a34.chunk.js.map",
-  "static/js/1.6105a37c.chunk.js": "/gov/static/js/1.6105a37c.chunk.js",
-  "static/js/1.6105a37c.chunk.js.map": "/gov/static/js/1.6105a37c.chunk.js.map",
-  "runtime~main.js": "/gov/static/js/runtime~main.90d1859e.js",
-  "runtime~main.js.map": "/gov/static/js/runtime~main.90d1859e.js.map",
-  "static/media/logo.svg": "/gov/static/media/logo.5d5d9eef.svg",
-  "static/css/main.79d70cad.chunk.css.map": "/gov/static/css/main.79d70cad.chunk.css.map",
-  "index.html": "/gov/index.html",
-  "precache-manifest.dade04e18e7bf3981b74633235efe0d2.js": "/gov/precache-manifest.dade04e18e7bf3981b74633235efe0d2.js",
-  "service-worker.js": "/gov/service-worker.js"
+  "main.css": "/luc-tuyishime/gov/static/css/main.79d70cad.chunk.css",
+  "main.js": "/luc-tuyishime/gov/static/js/main.5a17ad92.chunk.js",
+  "main.js.map": "/luc-tuyishime/gov/static/js/main.5a17ad92.chunk.js.map",
+  "static/js/1.6105a37c.chunk.js": "/luc-tuyishime/gov/static/js/1.6105a37c.chunk.js",
+  "static/js/1.6105a37c.chunk.js.map": "/luc-tuyishime/gov/static/js/1.6105a37c.chunk.js.map",
+  "runtime~main.js": "/luc-tuyishime/gov/static/js/runtime~main.2e06f1ec.js",
+  "runtime~main.js.map": "/luc-tuyishime/gov/static/js/runtime~main.2e06f1ec.js.map",
+  "static/media/logo.svg": "/luc-tuyishime/gov/static/media/logo.5d5d9eef.svg",
+  "static/css/main.79d70cad.chunk.css.map": "/luc-tuyishime/gov/static/css/main.79d70cad.chunk.css.map",
+  "index.html": "/luc-tuyishime/gov/index.html",
+  "precache-manifest.16d20c9a7e673001a01f9bb7838447cb.js": "/luc-tuyishime/gov/precache-manifest.16d20c9a7e673001a01f9bb7838447cb.js",
+  "service-worker.js": "/luc-tuyishime/gov/service-worker.js"
 }
