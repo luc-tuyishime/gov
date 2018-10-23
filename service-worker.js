@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/luc-tuyishime/gov/precache-manifest.16d20c9a7e673001a01f9bb7838447cb.js"
+  "/gov/precache-manifest.dade04e18e7bf3981b74633235efe0d2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/luc-tuyishime/gov/index.html", {
+workbox.routing.registerNavigationRoute("/gov/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
