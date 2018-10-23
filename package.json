@@ -2,7 +2,7 @@
   "name": "gov",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/luc-tuyishime/gov",
+  "homepage": "https://luc-tuyishime.github.io/gov/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
