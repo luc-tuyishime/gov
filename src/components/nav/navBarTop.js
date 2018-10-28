@@ -1,18 +1,21 @@
 import React, { Component } from "react"
-import Logo from "../img/logo.png"
-import Small from "../img/small.png"
-import Flag from "../img/flag.png"
-import "../App.css"
+import Logo from "../../img/logo.png"
+import { Link } from "react-router-dom"
+import Small from "../../img/small.png"
+import Flag from "../../img/flag.png"
+import "../../App.css"
 
 export default class NavBarTop extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid bg-top">
-          <div className="d-none d-sm-block">
+        <div className="container-fluid  bg-top">
+          <div className="d-none d-sm-block bg-top-up">
             <div className="row">
               <div className="col-md-2 col-sm-6">
-                <img className="gov-logo img-fluid" src={Logo} alt="gov" />
+                <Link to="/">
+                  <img className="gov-logo img-fluid" src={Logo} alt="gov" />
+                </Link>
               </div>
               <div className="col-md-2 mx-auto d-block col-sm-6 hr-div-style">
                 {" "}
@@ -32,7 +35,7 @@ export default class NavBarTop extends Component {
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 mx-auto d-block margin-form">
-                <p className="text-small">
+                <p style={{ color: "#fff" }} className="text-small">
                   {" "}
                   <img className="gov-flag img-fluid" src={Flag} alt="gov" />
                   &nbsp; Official website of the Rwanda government
@@ -53,7 +56,7 @@ export default class NavBarTop extends Component {
                           type="text"
                           name="search"
                           id="search"
-                          placeholder="Search"
+                          placeholder="Search Gov.rw"
                           className="form-control width-form"
                         />
                       </div>
@@ -127,6 +130,7 @@ export default class NavBarTop extends Component {
             </div>
           </div>
         </div>
+
         <div className="neapolitan" />
       </div>
     )
