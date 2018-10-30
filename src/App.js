@@ -9,9 +9,9 @@ import "./App.css"
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename="/gov/">
+      <BrowserRouter>
         <div>
-          <Route exact path="/" component={Home} />
+          <Route exact basename="/gov/" component={Home} />
           <Route path="/minaloc" component={Ministry} />
           <Route path="/minaloc-website" component={MinalocWebsite} />
           <Route path="/local-gov" component={LocalGov} />
