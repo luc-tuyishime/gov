@@ -42,13 +42,13 @@ export default class ContentLocal extends Component {
                         style={{ fontSize: "14px" }}
                         classNameName="card-body"
                       >
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Gasabo</p>
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Kicukiro</p>
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Nyarugenge</p>
                         </Link>
                       </div>
@@ -77,25 +77,25 @@ export default class ContentLocal extends Component {
                       data-parent="#accordionExample"
                     >
                       <div style={{ fontSize: "14px" }} className="card-body">
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Bugesera</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Gatsibo</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Kayonza</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Kirehe</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Ngoma</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Nyagatare</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Rwagamana</p>{" "}
                         </Link>
                       </div>
@@ -124,19 +124,19 @@ export default class ContentLocal extends Component {
                       data-parent="#accordionExample"
                     >
                       <div style={{ fontSize: "14px" }} className="card-body">
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Burera</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Gicumbi</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Gakenke</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Musanze</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Rurindo</p>{" "}
                         </Link>
                       </div>
@@ -166,25 +166,25 @@ export default class ContentLocal extends Component {
                       data-parent="#accordionExample"
                     >
                       <div style={{ fontSize: "14px" }} class="card-body">
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Karongi</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Ngorero</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Nyabihu</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Nyamasheke</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Rubavu</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Rutsiro</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Rusizi</p>{" "}
                         </Link>
                       </div>
@@ -213,28 +213,28 @@ export default class ContentLocal extends Component {
                       data-parent="#accordionExample"
                     >
                       <div style={{ fontSize: "14px" }} className="card-body">
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Gisagara</p>{" "}
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Huye</p>
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Kamonyi</p>
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Muhanga</p>
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Nyamagabe</p>
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Nyanza</p>
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Nyaruguru</p>
                         </Link>
-                        <Link to="">
+                        <Link to="/local-gov">
                           <p>Ruhango</p>
                         </Link>
                       </div>
