@@ -11,26 +11,8 @@ export default class Jumbotron extends Component {
           data-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div className="jumbotron jumbo01">
-                <div className="col-sm-5">
-                  <div className="card card-home">
-                    <div className="card-body">
-                      <h4 className="card-title">Welcome to Rwanda</h4>
-                      <p className="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <button type="button" className="btn btn-primary">
-                        Visit Rwanda
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="carousel-item">
-              <div className="jumbotron jumbo1">
+              <div className="jumbotron jumbo01">
                 <div className="col-sm-5">
                   <div className="card card-home">
                     <div className="card-body">
@@ -47,8 +29,28 @@ export default class Jumbotron extends Component {
                 </div>
               </div>
             </div>
+
             <div class="carousel-item">
               <div className="jumbotron jumbo03">
+                <div className="col-sm-5">
+                  <div className="card card-home">
+                    <div className="card-body">
+                      <h4 className="card-title">Welcome to Rwanda</h4>
+                      <p className="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button type="button" className="btn btn-primary">
+                        Visit Rwanda
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item active">
+              <div className="jumbotron jumbo1">
                 <div className="col-sm-5">
                   <div className="card card-home">
                     <div className="card-body">

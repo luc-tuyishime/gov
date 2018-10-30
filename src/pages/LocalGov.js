@@ -18,7 +18,6 @@ export default class LocalGov extends Component {
     return (
       <div>
         <NavBarTopLocal />
-        <NavBar2 />
         <JumboLocal />
         <ContentLocal />
         <Footer />

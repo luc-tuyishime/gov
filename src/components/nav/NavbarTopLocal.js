@@ -21,8 +21,10 @@ export default class NavBarTopLocal extends Component {
                 {" "}
                 <hr style={{ borderLeft: "1px solid #124184" }} />
                 <div className="text-govw">
-                  Ministry
-                  <br /> local Government
+                  <Link to="/minaloc-website">
+                    Ministry
+                    <br /> local Government
+                  </Link>
                 </div>
               </div>
               <div className="col-md-2 col-sm-6">
