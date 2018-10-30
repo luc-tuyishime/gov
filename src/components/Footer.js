@@ -110,7 +110,7 @@ export default class Footer extends Component {
               <div className="modal-body">
                 <form>
                   <div className="form-group">
-                    <label className="text-label" for="exampleInputEmail1">
+                    <label className="text-label" HtmlFor="exampleInputEmail1">
                       Applicants
                     </label>
                     <input
@@ -122,7 +122,10 @@ export default class Footer extends Component {
                     />
                   </div>
                   <div className="form-group">
-                    <label className="text-label" for="exampleInputPassword1">
+                    <label
+                      className="text-label"
+                      HtmlFor="exampleInputPassword1"
+                    >
                       Subject
                     </label>
                     <input
@@ -133,7 +136,7 @@ export default class Footer extends Component {
                     />
                   </div>
                   <div className="form-group">
-                    <label className="text-label" for="exampleInputEmail1">
+                    <label className="text-label" HtmlFor="exampleInputEmail1">
                       Email address
                     </label>
                     <input
@@ -150,7 +153,7 @@ export default class Footer extends Component {
                   <div class="form-group">
                     <label
                       className="text-label"
-                      for="exampleFormControlTextarea1"
+                      HtmlFor="exampleFormControlTextarea1"
                     >
                       Message
                     </label>
@@ -167,7 +170,7 @@ export default class Footer extends Component {
                     <div className="form-group col-md-6">
                       <label
                         className="text-label"
-                        for="exampleFormControlSelect1"
+                        HtmlFor="exampleFormControlSelect1"
                       >
                         Message type
                       </label>
@@ -185,7 +188,7 @@ export default class Footer extends Component {
                     <div className="form-group col-md-6">
                       <label
                         className="text-label"
-                        for="exampleFormControlSelect1"
+                        HtmlFor="exampleFormControlSelect1"
                       >
                         Tap target
                       </label>

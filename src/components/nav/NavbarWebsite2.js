@@ -39,7 +39,7 @@ export default class NavBar2 extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Affiliated Organization <b class="caret" />
+                        Affiliated Organization <b className="caret" />
                       </Link>
                       <ul class="dropdown-menu center-drop-menu multi-column columns-3">
                         <div class="row">

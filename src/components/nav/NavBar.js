@@ -29,7 +29,7 @@ export default class NavBar extends Component {
               >
                 <div className=" d-none d-sm-block">
                   <ul className="navbar-nav">
-                    <li class="dropdown">
+                    <li className="dropdown">
                       <Link
                         to=""
                         className="nav-link dropdown-toggle"
@@ -39,12 +39,12 @@ export default class NavBar extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Government <b class="caret" />
+                        Government <b className="caret" />
                       </Link>
-                      <ul class="dropdown-menu center-drop-menu multi-column columns-3_">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <ul class="multi-column-dropdown">
+                      <ul className="dropdown-menu center-drop-menu multi-column columns-3_">
+                        <div className="row">
+                          <div className="col-sm-6">
+                            <ul className="multi-column-dropdown">
                               <li>
                                 <u>
                                   <Link to="/">OFFICE OF THE PRESIDENT</Link>
@@ -68,14 +68,14 @@ export default class NavBar extends Component {
                                   The Ministry of Trade and Industry
                                 </Link>
                               </li>
-                              <li class="divider" />
+                              <li className="divider" />
                               <li>
                                 <Link to="#">
                                   The Ministry of Agriculture and Animal
                                   Ressources (MINAGRI)
                                 </Link>
                               </li>
-                              <li class="divider" />
+                              <li className="divider" />
                               <li>
                                 <Link to="#">
                                   The Ministry of Finance and Economic Planning
@@ -104,8 +104,8 @@ export default class NavBar extends Component {
                               </li>
                             </ul>
                           </div>
-                          <div class="col-sm-6">
-                            <ul class="multi-column-dropdown">
+                          <div className="col-sm-6">
+                            <ul className="multi-column-dropdown">
                               <li>
                                 <u>
                                   <Link to="">PRIME MINISTER OFFICE</Link>
@@ -128,13 +128,13 @@ export default class NavBar extends Component {
                                   (MIGEPROF)
                                 </Link>
                               </li>
-                              <li class="divider" />
+                              <li className="divider" />
                               <li>
                                 <Link to="#">
                                   The Ministry of ICT and Innovation
                                 </Link>
                               </li>
-                              <li class="divider" />
+                              <li className="divider" />
                               <li>
                                 <Link to="#">
                                   The Ministry of Sport and Cultural (MINISPOC)
@@ -182,12 +182,12 @@ export default class NavBar extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Programs <b class="caret" />
+                        Programs <b className="caret" />
                       </Link>
-                      <ul class="dropdown-menu center-drop-menu multi-column columns-3">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <ul class="multi-column-dropdown">
+                      <ul className="dropdown-menu center-drop-menu multi-column columns-3">
+                        <div className="row">
+                          <div className="col-sm-6">
+                            <ul className="multi-column-dropdown">
                               <li>
                                 <Link to="#">Good governance</Link>
                               </li>
@@ -199,13 +199,13 @@ export default class NavBar extends Component {
                               </li>
                             </ul>
                           </div>
-                          <div class="col-sm-6">
-                            <ul class="multi-column-dropdown">
-                              <li class="divider" />
+                          <div className="col-sm-6">
+                            <ul className="multi-column-dropdown">
+                              <li className="divider" />
                               <li>
                                 <Link to="#">Local finance</Link>
                               </li>
-                              <li class="divider" />
+                              <li className="divider" />
                               <li>
                                 <Link to="#">Social protection</Link>
                               </li>
