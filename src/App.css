@@ -20,8 +20,14 @@
 }
 
 .gov-logo22 {
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-top: 7px;
+  margin-bottom: 2px;
+}
+
+.btn-primary {
+  background-color: blue !important;
+  border: 1px solid blue !important;
+  opacity: 1 !important;
 }
 
 .gov-logo22_ {
@@ -112,7 +118,6 @@ hr {
   }
 
   .alert {
-    width: 100% !important;
     text-align: center !important;
     color: #0b84e3 !important;
   }
@@ -209,9 +214,9 @@ hr {
   color: #fff;
 }
 .multi-column-dropdown li a:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: #999;
+  text-decoration: none !important;
+  color: #fff !important;
+  background-color: #999 !important;
 }
 
 @media (max-width: 767px) {
@@ -243,6 +248,18 @@ hr {
   background-size: 100% auto;
 }
 
+.jumbo01 {
+  margin-top: 15px;
+  height: 65vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/center2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
 .jumbo2 {
   margin-top: 15px;
   height: 65vh;
@@ -250,6 +267,30 @@ hr {
   color: black;
   background-color: white;
   background-image: url(./img/img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.jumbo-local {
+  margin-top: 15px;
+  height: 65vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/local.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.jumbo03 {
+  margin-top: 15px;
+  height: 65vh;
+
+  color: black;
+  background-color: white;
+  background-image: url(./img/center3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
@@ -263,6 +304,7 @@ hr {
 }
 .card-home {
   background-color: #2c4466;
+  opacity: 0.71;
   color: #fff;
   padding: 20px;
 }
@@ -288,6 +330,11 @@ hr {
 .border-div_ {
   border: 1px solid rgba(34, 52, 78, 0.22);
   background: #f7f9fd;
+}
+
+.border-div_local {
+  border: 1px solid rgba(34, 52, 78, 0.22);
+  background: #fff;
 }
 
 .border-div {
@@ -323,6 +370,12 @@ hr {
 .rwanda-text {
   color: #22344e;
   font-size: 36px;
+}
+
+.rwanda-text-left {
+  color: #22344e;
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 .rwanda-subtext {
@@ -365,7 +418,6 @@ hr {
 }
 
 .alert {
-  width: 40%;
   text-align: center;
   color: #0b84e3;
 }
@@ -382,4 +434,15 @@ hr {
 .text-label {
   font-size: 14px;
   color: #999999;
+}
+
+.navbar .dropdown-menu {
+  background-color: #2c4466 !important;
+  color: #fff !important;
+}
+
+/* and this styles the dropdwon trigger link, when open */
+.navbar .dropdown.show a {
+  background-color: #2c4466 !important;
+  color: #fff !important;
 }

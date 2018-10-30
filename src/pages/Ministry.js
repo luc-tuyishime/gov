@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import NavBar from "../components/nav/NavBar"
+import NavBarMinaloc from "../components/nav/NavBarMinaloc"
 import Footer from "../components/Footer"
 import NavBarTop from "../components/nav/navBarTop"
 import Jumbotron from "../components/Jumbotron"
@@ -14,7 +14,7 @@ export default class Ministry extends Component {
     return (
       <div>
         <NavBarTop />
-        <NavBar />
+        <NavBarMinaloc />
         <br />
         <MinalocContent />
         <Footer />

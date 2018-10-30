@@ -11,7 +11,7 @@ export default class NavBar extends Component {
         <div>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
-              <a className="navbar-brand">Home</a>
+              <Link to="/">Home</Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -39,77 +39,26 @@ export default class NavBar extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Programs <b class="caret" />
-                      </Link>
-                      <ul class="dropdown-menu center-drop-menu multi-column columns-3">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <ul class="multi-column-dropdown">
-                              <li>
-                                <Link to="#">Action</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6">
-                            <ul class="multi-column-dropdown">
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <Link
-                        to=""
-                        className="nav-link dropdown-toggle"
-                        id="navbarDropdownMenuLink"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Ministries <b class="caret" />
+                        Government <b class="caret" />
                       </Link>
                       <ul class="dropdown-menu center-drop-menu multi-column columns-3_">
                         <div class="row">
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
+                                <u>
+                                  <Link to="/">OFFICE OF THE PRESIDENT</Link>
+                                </u>
+                              </li>
+                              <li>
                                 <Link to="/minaloc">
                                   The Ministry of Local Government (MINALOC)
                                 </Link>
                               </li>
                               <li>
+                                <Link to="/local-gov">Local Government</Link>
+                              </li>
+                              <li style={{ color: "red" }}>
                                 <Link to="#">
                                   The Ministry of infrastructure (MININFRA)
                                 </Link>
@@ -158,6 +107,11 @@ export default class NavBar extends Component {
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
+                                <u>
+                                  <Link to="">PRIME MINISTER OFFICE</Link>
+                                </u>
+                              </li>
+                              <li>
                                 <Link to="#">
                                   The Ministry of Justice (MINIJUST)
                                 </Link>
@@ -203,11 +157,64 @@ export default class NavBar extends Component {
                                   The Ministry of Environment (Mo)
                                 </Link>
                               </li>
+                              <li>
+                                <Link to="#">
+                                  Rwanda Development Board (RDB)
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Defense (MINADEF)
+                                </Link>
+                              </li>
                             </ul>
                           </div>
                         </div>
                       </ul>
                     </li>
+                    <li class="dropdown">
+                      <Link
+                        to=""
+                        className="nav-link dropdown-toggle"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Programs <b class="caret" />
+                      </Link>
+                      <ul class="dropdown-menu center-drop-menu multi-column columns-3">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <ul class="multi-column-dropdown">
+                              <li>
+                                <Link to="#">Good governance</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Decentralization</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Community Development</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-6">
+                            <ul class="multi-column-dropdown">
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Local finance</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Social protection</Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
+
                     <li class="dropdown">
                       <Link
                         to="#"
@@ -225,42 +232,27 @@ export default class NavBar extends Component {
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="">Constitution</Link>
                               </li>
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="">Citizen documents</Link>
                               </li>
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="">Business documents</Link>
                               </li>
                               <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
                             </ul>
                           </div>
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Lorem ipsum</Link>
                               </li>
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Lorem ipsum</Link>
                               </li>
                               <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Lorem ipsum</Link>
                               </li>
                             </ul>
                           </div>
@@ -277,49 +269,49 @@ export default class NavBar extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Our outlets <b class="caret" />
+                        Information <b class="caret" />
                       </Link>
                       <ul class="dropdown-menu center-drop-menu multi-column columns-3">
                         <div class="row">
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Visit Rwanda</Link>
                               </li>
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Doing Business in Rwanda</Link>
                               </li>
                               <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Become a Citizen</Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Technologie and Innovation</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Education</Link>
                               </li>
                             </ul>
                           </div>
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Land and Nature resources</Link>
                               </li>
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Health</Link>
                               </li>
                               <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Infrastructure</Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Security</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Ioc</Link>
                               </li>
                             </ul>
                           </div>
@@ -333,7 +325,8 @@ export default class NavBar extends Component {
                 <div className="d-block d-sm-none">
                   <ul className="navbar-nav">
                     <li class="dropdown">
-                      <a
+                      <Link
+                        to=""
                         className="nav-link dropdown-toggle"
                         id="navbarDropdownMenuLink"
                         role="button"
@@ -342,69 +335,31 @@ export default class NavBar extends Component {
                         aria-expanded="false"
                       >
                         Programs <b class="caret" />
-                      </a>
+                      </Link>
                       <ul class="dropdown-menu multi-column columns-3">
                         <div class="row">
-                          <div class="col-sm-4">
+                          <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <a>Action</a>
+                                <Link to="#">Good governance</Link>
                               </li>
                               <li>
-                                <a>Another action</a>
+                                <Link to="#">Decentralization</Link>
                               </li>
                               <li>
-                                <a>Something else here</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>Separated link</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>One more separated link</a>
+                                <Link to="#">Community Development</Link>
                               </li>
                             </ul>
                           </div>
-                          <div class="col-sm-4">
+                          <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
+                              <li class="divider" />
                               <li>
-                                <a>Action</a>
-                              </li>
-                              <li>
-                                <a>Another action</a>
-                              </li>
-                              <li>
-                                <a>Something else here</a>
+                                <Link to="#">Local finance</Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <a>Separated link</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>One more separated link</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-4">
-                            <ul class="multi-column-dropdown">
-                              <li>
-                                <a>Action</a>
-                              </li>
-                              <li>
-                                <a>Another action</a>
-                              </li>
-                              <li>
-                                <a>Something else here</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>Separated link</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>One more separated link</a>
+                                <Link to="#">Social protection</Link>
                               </li>
                             </ul>
                           </div>
@@ -412,7 +367,8 @@ export default class NavBar extends Component {
                       </ul>
                     </li>
                     <li class="dropdown">
-                      <a
+                      <Link
+                        to=""
                         className="nav-link dropdown-toggle"
                         id="navbarDropdownMenuLink"
                         role="button"
@@ -421,91 +377,109 @@ export default class NavBar extends Component {
                         aria-expanded="false"
                       >
                         Ministries <b class="caret" />
-                      </a>
+                      </Link>
                       <ul class="dropdown-menu multi-column columns-3">
                         <div class="row">
                           <div class="col-sm-12">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <a>
+                                <Link to="">
                                   The Ministry of Local Government (MINALOC)
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a>The Ministry of infrastructure (MININFRA)</a>
+                                <Link to="">
+                                  The Ministry of infrastructure (MININFRA)
+                                </Link>
                               </li>
                               <li>
-                                <a>The Ministry of Trade and Industry</a>
+                                <Link to="">
+                                  The Ministry of Trade and Industry
+                                </Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <a>
+                                <Link to="">
                                   The Ministry of Agriculture and Animal
                                   Ressources (MINAGRI)
-                                </a>
+                                </Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <a>
+                                <Link to="">
                                   The Ministry of Finance and Economic Planning
                                   (MINECOFIN)
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a>
+                                <Link to="">
                                   The Ministry in charge of Emergency Management
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a>The Ministry of Education (MINEDUC)</a>
+                                <Link to="">
+                                  The Ministry of Education (MINEDUC)
+                                </Link>
                               </li>
                               <li>
-                                <a>The Ministry of Health(MINISANTE)</a>
+                                <Link to="">
+                                  The Ministry of Health(MINISANTE)
+                                </Link>
                               </li>
                               <li>
-                                <a>The Ministry of Defense (MINADEF)</a>
+                                <Link to="">
+                                  The Ministry of Defense (MINADEF)
+                                </Link>
                               </li>
                             </ul>
                           </div>
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <a>The Ministry of Justice (MINIJUST)</a>
+                                <Link to="">
+                                  The Ministry of Justice (MINIJUST)
+                                </Link>
                               </li>
 
                               <li>
-                                <a>The Ministry of Youth (MINIYOUTH)</a>
+                                <Link to="">
+                                  The Ministry of Youth (MINIYOUTH)
+                                </Link>
                               </li>
                               <li>
-                                <a>
+                                <Link to="">
                                   The Ministry of Gender and family Pormotion
                                   (MIGEPROF)
-                                </a>
+                                </Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <a>The Ministry of ICT and Innovation</a>
+                                <Link to="">
+                                  The Ministry of ICT and Innovation
+                                </Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <a>
+                                <Link to="">
                                   The Ministry of Sport and Cultural (MINISPOC)
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a>
+                                <Link to="">
                                   The Ministry of Public Service and Labour
                                   (MIFOTRA)
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a>
+                                <Link to="">
                                   The Ministry of Foreign Affairs and
                                   International Cooperation
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a>The Ministry of Environment (Mo)</a>
+                                <Link to="">
+                                  The Ministry of Environment (Mo)
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -528,64 +502,15 @@ export default class NavBar extends Component {
                           <div class="col-sm-4">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <a>Action</a>
+                                <Link to="">Constitution</Link>
                               </li>
                               <li>
-                                <a>Another action</a>
+                                <Link to="">Citizen documents</Link>
                               </li>
                               <li>
-                                <a>Something else here</a>
+                                <Link to="">Business documents</Link>
                               </li>
                               <li class="divider" />
-                              <li>
-                                <a>Separated link</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>One more separated link</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-4">
-                            <ul class="multi-column-dropdown">
-                              <li>
-                                <a>Action</a>
-                              </li>
-                              <li>
-                                <a>Another action</a>
-                              </li>
-                              <li>
-                                <a>Something else here</a>
-                              </li>
-                              <li className="divider" />
-                              <li>
-                                <a>Separated link</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>One more separated link</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-4">
-                            <ul class="multi-column-dropdown">
-                              <li>
-                                <a>Action</a>
-                              </li>
-                              <li>
-                                <a>Another action</a>
-                              </li>
-                              <li>
-                                <a>Something else here</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>Separated link</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>One more separated link</a>
-                              </li>
                             </ul>
                           </div>
                         </div>
@@ -607,42 +532,42 @@ export default class NavBar extends Component {
                           <div class="col-sm-4">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <a>Action</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <a>Another action</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <a>Something else here</a>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <a>Separated link</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <a>One more separated link</a>
+                                <Link to="">Action</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="">Action</Link>
                               </li>
                             </ul>
                           </div>
                           <div className="col-sm-4">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <a>Action</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <a>Another action</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <a>Something else here</a>
-                              </li>
-                              <li className="divider" />
-                              <li>
-                                <a>Separated link</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li className="divider" />
                               <li>
-                                <a>One more separated link</a>
+                                <Link to="">Action</Link>
+                              </li>
+                              <li className="divider" />
+                              <li>
+                                <Link to="">Action</Link>
                               </li>
                             </ul>
                           </div>
@@ -650,21 +575,21 @@ export default class NavBar extends Component {
                           <div className="col-sm-4">
                             <ul className="multi-column-dropdown">
                               <li>
-                                <a>Action</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <a>Another action</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <a>Something else here</a>
-                              </li>
-                              <li className="divider" />
-                              <li>
-                                <a>Separated link</a>
+                                <Link to="">Action</Link>
                               </li>
                               <li className="divider" />
                               <li>
-                                <a>One more separated link</a>
+                                <Link to="">Action</Link>
+                              </li>
+                              <li className="divider" />
+                              <li>
+                                <Link to="">Action</Link>
                               </li>
                             </ul>
                           </div>

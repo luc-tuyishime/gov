@@ -3,7 +3,7 @@ import React, { Component } from "react"
 import { Link } from "react-router-dom"
 import "../../App.css"
 
-export default class NavBar2 extends Component {
+export default class NavBarMinaloc extends Component {
   render() {
     return (
       <div>
@@ -39,46 +39,120 @@ export default class NavBar2 extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Affiliated Organization <b class="caret" />
+                        Ministries <b class="caret" />
                       </Link>
-                      <ul class="dropdown-menu center-drop-menu multi-column columns-3">
+                      <ul class="dropdown-menu center-drop-menu multi-column columns-3_">
                         <div class="row">
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">
-                                  National Itorero Commission (NIC)
+                                <Link to="/">Office of the President</Link>
+                              </li>
+                              <li>
+                                <Link to="/minaloc">
+                                  The Ministry of Local Government (MINALOC)
                                 </Link>
                               </li>
                               <li>
                                 <Link to="#">
-                                  National Electoral Commission (NEC)
+                                  The Ministry of infrastructure (MININFRA)
                                 </Link>
                               </li>
                               <li>
                                 <Link to="#">
-                                  National Identification Agency (NIDA)
+                                  The Ministry of Trade and Industry
+                                </Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Agriculture and Animal
+                                  Ressources (MINAGRI)
+                                </Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Finance and Economic Planning
+                                  (MINECOFIN)
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  The Ministry in charge of Emergency Management
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Education (MINEDUC)
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Health(MINISANTE)
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Defense (MINADEF)
                                 </Link>
                               </li>
                             </ul>
                           </div>
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
+                              <li>
+                                <Link to="#">Prime Minister Office</Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Justice (MINIJUST)
+                                </Link>
+                              </li>
+
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Youth (MINIYOUTH)
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Gender and family Pormotion
+                                  (MIGEPROF)
+                                </Link>
+                              </li>
                               <li class="divider" />
                               <li>
                                 <Link to="#">
-                                  Local Administrative Entities Development
-                                  Agency (LODA)
+                                  The Ministry of ICT and Innovation
+                                </Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Sport and Cultural (MINISPOC)
                                 </Link>
                               </li>
                               <li>
                                 <Link to="#">
-                                  National Rehabilitation Service (NRS)
+                                  The Ministry of Public Service and Labour
+                                  (MIFOTRA)
                                 </Link>
                               </li>
                               <li>
                                 <Link to="#">
-                                  Rwanda Broadcasting Agency (RBA)
+                                  The Ministry of Foreign Affairs and
+                                  International Cooperation
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  The Ministry of Environment (Mo)
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="#">
+                                  Rwanda Development Board (RDB)
                                 </Link>
                               </li>
                             </ul>
@@ -98,36 +172,54 @@ export default class NavBar2 extends Component {
                       >
                         Programs <b class="caret" />
                       </Link>
-                      <ul class="dropdown-menu center-drop-menu multi-column columns-3_">
+                      <ul class="dropdown-menu center-drop-menu multi-column columns-3">
                         <div class="row">
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">Good governance</Link>
+                                <Link to="#">Action</Link>
                               </li>
                               <li>
-                                <Link to="#">Decentralization</Link>
+                                <Link to="#">Another action</Link>
                               </li>
                               <li>
-                                <Link to="#">Community Development</Link>
+                                <Link to="#">Another action</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Another action</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Another action</Link>
                               </li>
                             </ul>
                           </div>
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
-                              <li class="divider" />
                               <li>
-                                <Link to="#">Local finance</Link>
+                                <Link to="#">Another action</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Another action</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Another action</Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <Link to="#">Social protection</Link>
+                                <Link to="#">Another action</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Another action</Link>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </ul>
                     </li>
+
                     <li class="dropdown">
                       <Link
                         to="#"
@@ -145,14 +237,42 @@ export default class NavBar2 extends Component {
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">EDPRS</Link>
+                                <Link to="#">Agence</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Agence</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Agence</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Agence</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Agence</Link>
                               </li>
                             </ul>
                           </div>
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">Constitution</Link>
+                                <Link to="#">Agence</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Agence</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Agence</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Agence</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Agence</Link>
                               </li>
                             </ul>
                           </div>
@@ -169,7 +289,7 @@ export default class NavBar2 extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Contacts <b class="caret" />
+                        Our outlets <b class="caret" />
                       </Link>
                       <ul class="dropdown-menu center-drop-menu multi-column columns-3">
                         <div class="row">
@@ -234,46 +354,28 @@ export default class NavBar2 extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Affiliated Organization <b class="caret" />
+                        Programs <b class="caret" />
                       </Link>
                       <ul class="dropdown-menu multi-column columns-3">
                         <div class="row">
                           <div class="col-sm-4">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">
-                                  National Itorero Commission (NIC)
-                                </Link>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <Link to="#">
-                                  National Electoral Commission (NEC)
-                                </Link>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <Link to="#">
-                                  National Identification Agency (NIDA)
-                                </Link>
+                                <Link to="">Action</Link>
                               </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-4">
-                            <ul class="multi-column-dropdown">
+                              <li class="divider" />
                               <li>
-                                <Link to="#">
-                                  Local Administrative Entities Development
-                                  Agency (LODA)
-                                </Link>
+                                <Link to="">Action</Link>
                               </li>
+                              <li class="divider" />
                               <li>
-                                <Link to="#">
-                                  National Rehabilitation Service (NRS)
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="#">
-                                  Rwanda Broadcasting Agency (RBA)
-                                </Link>
+                                <Link to="">Action</Link>
                               </li>
                             </ul>
                           </div>
@@ -283,18 +385,39 @@ export default class NavBar2 extends Component {
                                 <Link to="">Action</Link>
                               </li>
                               <li>
-                                <Link to="">Another action</Link>
+                                <Link to="">Action</Link>
                               </li>
                               <li>
-                                <Link to="">Something else here</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="">Separated link</Link>
+                                <Link to="">Action</Link>
                               </li>
                               <li class="divider" />
                               <li>
-                                <Link to="">One more separated link</Link>
+                                <Link to="">Action</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="">Action</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-4">
+                            <ul class="multi-column-dropdown">
+                              <li>
+                                <Link to="">Action</Link>
+                              </li>
+                              <li>
+                                <Link to="">Action</Link>
+                              </li>
+                              <li>
+                                <Link to="">Action</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="">Action</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="">Action</Link>
                               </li>
                             </ul>
                           </div>
@@ -302,8 +425,7 @@ export default class NavBar2 extends Component {
                       </ul>
                     </li>
                     <li class="dropdown">
-                      <Link
-                        to=""
+                      <a
                         className="nav-link dropdown-toggle"
                         id="navbarDropdownMenuLink"
                         role="button"
@@ -312,7 +434,7 @@ export default class NavBar2 extends Component {
                         aria-expanded="false"
                       >
                         Ministries <b class="caret" />
-                      </Link>
+                      </a>
                       <ul class="dropdown-menu multi-column columns-3">
                         <div class="row">
                           <div class="col-sm-12">
@@ -487,7 +609,7 @@ export default class NavBar2 extends Component {
                               <li>
                                 <Link to="">Action</Link>
                               </li>
-                              <li class="divider" />
+                              <li className="divider" />
                               <li>
                                 <Link to="">Action</Link>
                               </li>
@@ -524,7 +646,7 @@ export default class NavBar2 extends Component {
                               <li>
                                 <Link to="">Action</Link>
                               </li>
-                              <li class="divider" />
+                              <li className="divider" />
                               <li>
                                 <Link to="">Action</Link>
                               </li>
@@ -535,7 +657,7 @@ export default class NavBar2 extends Component {
                             </ul>
                           </div>
                           <div className="col-sm-4">
-                            <ul className="multi-column-dropdown">
+                            <ul class="multi-column-dropdown">
                               <li>
                                 <Link to="">Action</Link>
                               </li>
@@ -549,7 +671,7 @@ export default class NavBar2 extends Component {
                               <li>
                                 <Link to="">Action</Link>
                               </li>
-                              <li className="divider" />
+                              <li class="divider" />
                               <li>
                                 <Link to="">Action</Link>
                               </li>
@@ -557,7 +679,7 @@ export default class NavBar2 extends Component {
                           </div>
                           Name
                           <div className="col-sm-4">
-                            <ul className="multi-column-dropdown">
+                            <ul class="multi-column-dropdown">
                               <li>
                                 <Link to="">Action</Link>
                               </li>
@@ -571,7 +693,7 @@ export default class NavBar2 extends Component {
                               <li>
                                 <Link to="">Action</Link>
                               </li>
-                              <li className="divider" />
+                              <li class="divider" />
                               <li>
                                 <Link to="">Action</Link>
                               </li>

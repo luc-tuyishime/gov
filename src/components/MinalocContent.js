@@ -17,11 +17,22 @@ export default class MinalocContent extends Component {
               >
                 Quick Links
               </li>
-              <li className="list-group-item active">Minaloc</li>
-              <li className="list-group-item">Minicom</li>
-              <li className="list-group-item">Minafet</li>
-              <li className="list-group-item">Minispoc</li>
+              <Link to="">
+                <li className="list-group-item list-up">Visit Rwanda</li>{" "}
+              </Link>
+              <li className="list-group-item">Doing Business</li>
+              <li className="list-group-item">Security and peace building</li>
+              <li className="list-group-item">Infrastructure</li>
             </ul>
+            <br />
+            <span className="rwanda-text-left">
+              Go to our website for more details
+            </span>
+            <div class="alert alert-primary" role="alert">
+              <Link to="/minaloc-website">
+                <u>www.minaloc.gov.rw</u>
+              </Link>
+            </div>
           </div>
           <div className="col-md-9 col-sm-3">
             <p className="rwanda-text">
@@ -46,42 +57,13 @@ export default class MinalocContent extends Component {
               <p className="content-text_">OTHER CONTENT</p>
             </div>
             <br />
-            <p className="rwanda-text">Go to our website for more details</p>
+
             <p className="rwanda-subtext">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been
               <br /> the industry's standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it.
             </p>
-            <div class="alert alert-primary" role="alert">
-              <Link to="/minaloc-website">
-                <u>www.minaloc.gov.rw</u>
-              </Link>
-            </div>
-            <div className="row">
-              <div class="col-sm-6">
-                <div class="card card-mini">
-                  <div class="card-body">
-                    <h3 class="card-title">Help us help you!</h3>
-                    <p class="card-text">Was this page helpful?</p>
-                    <div className="row">
-                      <div class="col-sm-6">
-                        <p style={{ fontSize: "12px" }}>
-                          <img className="img-fluid" src={Yes} alt="gov" />
-                          &nbsp;Yes, sure it was
-                        </p>
-                      </div>
-                      <div class="col-sm-6">
-                        <p style={{ fontSize: "12px" }}>
-                          <img className="img-fluid" src={No} alt="gov" />
-                          &nbsp;No, Didn't get it
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <br />

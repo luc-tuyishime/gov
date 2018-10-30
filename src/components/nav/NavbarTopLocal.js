@@ -1,15 +1,15 @@
 import React, { Component } from "react"
 import Logo from "../../img/logo.png"
 import { Link } from "react-router-dom"
-import Small from "../../img/small.png"
+import Small from "../../img/smalk.png"
 import Flag from "../../img/flag.png"
 import "../../App.css"
 
-export default class NavBarTop extends Component {
+export default class NavBarTopLocal extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid  bg-top">
+        <div className="container-fluid">
           <div className="d-none d-sm-block bg-top-up">
             <div className="row">
               <div className="col-md-2 col-sm-6">
@@ -17,15 +17,15 @@ export default class NavBarTop extends Component {
                   <img className="gov-logo img-fluid" src={Logo} alt="gov" />
                 </Link>
               </div>
-              <div className="col-md-2 mx-auto d-block col-sm-6 hr-div-style">
+              <div className="col-md-3 mx-auto d-block col-sm-6 hr-div-style">
                 {" "}
-                <hr />
-                <div className="text-gov">
-                  Government
-                  <br /> of rwanda
+                <hr style={{ borderLeft: "1px solid #124184" }} />
+                <div className="text-govw">
+                  Ministry
+                  <br /> local Government
                 </div>
               </div>
-              <div className="col-md-3 col-sm-6">
+              <div className="col-md-2 col-sm-6">
                 <div className="jdsf">
                   <img
                     className="gov-logo2 mx-auto d-block img-fluid"
@@ -35,15 +35,15 @@ export default class NavBarTop extends Component {
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 mx-auto d-block margin-form">
-                <p style={{ color: "#fff" }} className="text-small">
+                <p style={{ color: "black" }} className="text-small">
                   {" "}
                   <img className="gov-flag img-fluid" src={Flag} alt="gov" />
-                  &nbsp; Official website of the Rwanda government
-                  <span>
+                  &nbsp; local Government
+                  <span style={{ color: "#0B84E3" }}>
                     &ensp;
                     <u>English</u>
                   </span>
-                  <span>
+                  <span style={{ color: "#0B84E3" }}>
                     &ensp;
                     <u>Kinyarwanda</u>
                   </span>
@@ -56,7 +56,7 @@ export default class NavBarTop extends Component {
                           type="text"
                           name="search"
                           id="search"
-                          placeholder="Search Gov.rw"
+                          placeholder="Search local Gov"
                           className="form-control width-form"
                         />
                       </div>
@@ -71,8 +71,9 @@ export default class NavBarTop extends Component {
                     </form>
                   </div>
                 </div>
-
-                <p className="hotline-color">Hotline: +250 789 165</p>
+                <p style={{ color: "#124184" }} className="hotline-color">
+                  Hotline: +250 789 165
+                </p>
               </div>
             </div>
           </div>
@@ -84,7 +85,7 @@ export default class NavBarTop extends Component {
                 <div className="col text-mobile-logo">
                   <img className="img-fluid" src={Logo} alt="gov" />
                 </div>
-                <div style={{ color: "#fff" }} className="col text-mobile">
+                <div className="col text-mobile">
                   Government
                   <br /> of rwanda
                 </div>
@@ -99,10 +100,10 @@ export default class NavBarTop extends Component {
             </div>
             <div className="row">
               <div className="col-md-4 col-sm-6 margin-form">
-                <p style={{ color: "#fff" }} className="text-small">
+                <p className="text-small">
                   {" "}
                   <img className="gov-flag img-fluid" src={Flag} alt="gov" />
-                  &nbsp; Official website of the Government
+                  &nbsp; local Government
                   <span>
                     &ensp;
                     <u>English</u>
@@ -118,14 +119,14 @@ export default class NavBarTop extends Component {
                       type="password"
                       className="form-control width-form"
                       id="inputPassword2"
-                      placeholder="Search"
+                      placeholder="Search local Gov"
                     />
                   </div>
                   <button type="submit" className="btn btn-primary mb-2">
                     Go!
                   </button>
                 </form>
-                <p style={{ color: "#fff" }} className="hotline-color">
+                <p style={{ color: "#124184" }} className="hotline-color">
                   Hotline: +250 789 165
                 </p>
               </div>

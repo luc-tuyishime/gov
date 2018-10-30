@@ -38,7 +38,7 @@ export default class NavBarTopWebsite extends Component {
                 <p style={{ color: "black" }} className="text-small">
                   {" "}
                   <img className="gov-flag img-fluid" src={Flag} alt="gov" />
-                  &nbsp; Official website of the Rwanda government
+                  &nbsp; Ministry of local Government
                   <span style={{ color: "#0B84E3" }}>
                     &ensp;
                     <u>English</u>
@@ -71,7 +71,6 @@ export default class NavBarTopWebsite extends Component {
                     </form>
                   </div>
                 </div>
-
                 <p style={{ color: "#124184" }} className="hotline-color">
                   Hotline: +250 789 165
                 </p>
@@ -104,7 +103,7 @@ export default class NavBarTopWebsite extends Component {
                 <p className="text-small">
                   {" "}
                   <img className="gov-flag img-fluid" src={Flag} alt="gov" />
-                  &nbsp; Official website of the Government
+                  &nbsp; Ministry of local Government
                   <span>
                     &ensp;
                     <u>English</u>

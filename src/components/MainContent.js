@@ -15,14 +15,12 @@ export default class MainContent extends Component {
               >
                 Quick Links
               </li>
-              <Link to="/minaloc">
-                <li className="list-group-item list-up">Minaloc</li>{" "}
+              <Link to="">
+                <li className="list-group-item list-up">Visit Rwanda</li>{" "}
               </Link>
-
-              <li className="list-group-item">Minicom</li>
-
-              <li className="list-group-item">Minafet</li>
-              <li className="list-group-item">Minispoc</li>
+              <li className="list-group-item">Doing Business</li>
+              <li className="list-group-item">Security and peace building</li>
+              <li className="list-group-item">Infrastructure</li>
             </ul>
           </div>
           <div className="col-md-9 col-sm-3">
