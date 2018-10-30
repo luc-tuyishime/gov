@@ -29,6 +29,48 @@ export default class NavBar extends Component {
               >
                 <div className=" d-none d-sm-block">
                   <ul className="navbar-nav">
+                    <li class="dropdown">
+                      <Link
+                        to=""
+                        className="nav-link dropdown-toggle"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Programs <b className="caret" />
+                      </Link>
+                      <ul className="dropdown-menu center-drop-menu multi-column columns-3">
+                        <div className="row">
+                          <div className="col-sm-6">
+                            <ul className="multi-column-dropdown">
+                              <li>
+                                <Link to="#">Good governance</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Decentralization</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Community Development</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="col-sm-6">
+                            <ul className="multi-column-dropdown">
+                              <li className="divider" />
+                              <li>
+                                <Link to="#">Local finance</Link>
+                              </li>
+                              <li className="divider" />
+                              <li>
+                                <Link to="#">Social protection</Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
                     <li className="dropdown">
                       <Link
                         to=""
@@ -55,9 +97,7 @@ export default class NavBar extends Component {
                                   The Ministry of Local Government (MINALOC)
                                 </Link>
                               </li>
-                              <li>
-                                <Link to="/local-gov">Local Government</Link>
-                              </li>
+
                               <li style={{ color: "red" }}>
                                 <Link to="#">
                                   The Ministry of infrastructure (MININFRA)
@@ -167,47 +207,8 @@ export default class NavBar extends Component {
                                   The Ministry of Defense (MINADEF)
                                 </Link>
                               </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <Link
-                        to=""
-                        className="nav-link dropdown-toggle"
-                        id="navbarDropdownMenuLink"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Programs <b className="caret" />
-                      </Link>
-                      <ul className="dropdown-menu center-drop-menu multi-column columns-3">
-                        <div className="row">
-                          <div className="col-sm-6">
-                            <ul className="multi-column-dropdown">
-                              <li>
-                                <Link to="#">Good governance</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Decentralization</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Community Development</Link>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="col-sm-6">
-                            <ul className="multi-column-dropdown">
-                              <li className="divider" />
-                              <li>
-                                <Link to="#">Local finance</Link>
-                              </li>
-                              <li className="divider" />
-                              <li>
-                                <Link to="#">Social protection</Link>
+                              <li style={{ paddingTop: "20px" }}>
+                                <Link to="/local-gov">Local Government</Link>
                               </li>
                             </ul>
                           </div>

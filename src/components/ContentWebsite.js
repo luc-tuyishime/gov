@@ -12,13 +12,13 @@ export default class MainContentWeb extends Component {
               About the Ministry of Local Government (MINALOC)
             </p>
             <p className="rwanda-subtext">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it.
+              The Ministry of Local Government ensures the coordination of good
+              governance and high quality territorial administration programs
+              that promote economic, social and political development throughout
+              the nation.
             </p>
             <div className="border-div_">
-              <p className="content-text_ content_">CONTENT</p>
+              <p className="content-text_ content_">NEWS HEADLINES</p>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default class MainContentWeb extends Component {
         <div className="row">
           <div className="col-md-10 col-md-3">
             <div className="border-div">
-              <p className="content-text_">ANNOUNCEMENT</p>
+              <p className="content-text_">NEWS CONTENT</p>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default class MainContentWeb extends Component {
         <div className="row">
           <div className="col-md-10 col-md-3">
             <div className="border-div">
-              <p className="content-text_">ANNOUNCEMENT</p>
+              <p className="content-text_">QUICK ANNOUNCEMENTS</p>
             </div>
           </div>
         </div>

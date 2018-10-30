@@ -67,7 +67,7 @@ export default class Footer extends Component {
                 <button
                   type="button"
                   data-toggle="modal"
-                  data-target=".bd-example-modal-lg"
+                  data-target=".bd-example-modal-sm"
                   class="btn btn-primary btn-contact"
                 >
                   Contact
@@ -83,7 +83,7 @@ export default class Footer extends Component {
         </div>
 
         <div
-          className="modal fade bd-example-modal-lg"
+          className="modal fade bd-example-modal-sm"
           tabindex="-1"
           role="dialog"
           aria-labelledby="myLargeModalLabel"

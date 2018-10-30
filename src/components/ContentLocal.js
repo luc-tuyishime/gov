@@ -7,30 +7,11 @@ export default class ContentLocal extends Component {
     return (
       <div className="container padding-bottom">
         <div className="row">
-          <div className="col-md-10 col-sm-3">
+          <div className="col-md-12 col-sm-3">
             <p className="rwanda-text">Local Government</p>
             <p className="rwanda-subtext">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it.
+              Local Administrative entities of Rwanda
             </p>
-            <div className="col-md-5">
-              <ul className="list-group">
-                <li className="list-group-item">Provinces links</li>
-                <li className="list-group-item">District links</li>
-              </ul>
-              <br />
-              <span className="rwanda-text-left">
-                Go to our website for more details
-              </span>
-              <div className="alert alert-primary" role="alert">
-                <Link to="/minaloc-website">
-                  <u>www.local-gov.gov.rw</u>
-                </Link>
-              </div>
-            </div>
-            <br />
             <div className="border-div_local">
               <p className="content-text_ content_">
                 <div className="accordion" id="accordionExample">
@@ -38,6 +19,7 @@ export default class ContentLocal extends Component {
                     <div className="card-header" id="headingOne">
                       <h5 className="mb-0">
                         <button
+                          style={{ color: "black" }}
                           className="btn btn-link"
                           type="button"
                           data-toggle="collapse"
@@ -60,9 +42,15 @@ export default class ContentLocal extends Component {
                         style={{ fontSize: "14px" }}
                         classNameName="card-body"
                       >
-                        <p>Gasabo</p>
-                        <p>Kicukiro</p>
-                        <p>Nyarugenge</p>
+                        <Link to="">
+                          <p>Gasabo</p>
+                        </Link>
+                        <Link to="">
+                          <p>Kicukiro</p>
+                        </Link>
+                        <Link to="">
+                          <p>Nyarugenge</p>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -70,6 +58,7 @@ export default class ContentLocal extends Component {
                     <div className="card-header" id="headingTwo">
                       <h5 className="">
                         <button
+                          style={{ color: "black" }}
                           className="btn btn-link collapsed"
                           type="button"
                           data-toggle="collapse"
@@ -88,13 +77,27 @@ export default class ContentLocal extends Component {
                       data-parent="#accordionExample"
                     >
                       <div style={{ fontSize: "14px" }} className="card-body">
-                        <p>Bugesera</p>
-                        <p>Gatsibo</p>
-                        <p>Kayonza</p>
-                        <p>Kirehe</p>
-                        <p>Ngoma</p>
-                        <p>Nyagatare</p>
-                        <p>Rwagamana</p>
+                        <Link to="">
+                          <p>Bugesera</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Gatsibo</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Kayonza</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Kirehe</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Ngoma</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Nyagatare</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Rwagamana</p>{" "}
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -102,6 +105,7 @@ export default class ContentLocal extends Component {
                     <div className="card-header" id="headingThree">
                       <h5 className="mb-0">
                         <button
+                          style={{ color: "black" }}
                           className="btn btn-link collapsed"
                           type="button"
                           data-toggle="collapse"
@@ -120,11 +124,21 @@ export default class ContentLocal extends Component {
                       data-parent="#accordionExample"
                     >
                       <div style={{ fontSize: "14px" }} className="card-body">
-                        <p>Burera</p>
-                        <p>Gicumbi</p>
-                        <p>Gakenke</p>
-                        <p>Musanze</p>
-                        <p>Rurindo</p>
+                        <Link to="">
+                          <p>Burera</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Gicumbi</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Gakenke</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Musanze</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Rurindo</p>{" "}
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -133,6 +147,7 @@ export default class ContentLocal extends Component {
                     <div className="card-header" id="headingFour">
                       <h5 className="mb-0">
                         <button
+                          style={{ color: "black" }}
                           className="btn btn-link collapsed"
                           type="button"
                           data-toggle="collapse"
@@ -151,13 +166,27 @@ export default class ContentLocal extends Component {
                       data-parent="#accordionExample"
                     >
                       <div style={{ fontSize: "14px" }} class="card-body">
-                        <p>Karongi</p>
-                        <p>Ngorero</p>
-                        <p>Nyabihu</p>
-                        <p>Nyamasheke</p>
-                        <p>Rubavu</p>
-                        <p>Rutsiro</p>
-                        <p>Rusizi</p>
+                        <Link to="">
+                          <p>Karongi</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Ngorero</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Nyabihu</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Nyamasheke</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Rubavu</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Rutsiro</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Rusizi</p>{" "}
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -165,6 +194,7 @@ export default class ContentLocal extends Component {
                     <div className="card-header" id="headingFive">
                       <h5 className="mb-0">
                         <button
+                          style={{ color: "black" }}
                           className="btn btn-link collapsed"
                           type="button"
                           data-toggle="collapse"
@@ -183,14 +213,30 @@ export default class ContentLocal extends Component {
                       data-parent="#accordionExample"
                     >
                       <div style={{ fontSize: "14px" }} className="card-body">
-                        <p>Gisagara</p>
-                        <p>Huye</p>
-                        <p>Kamonyi</p>
-                        <p>Muhanga</p>
-                        <p>Nyamagabe</p>
-                        <p>Nyanza</p>
-                        <p>Nyaruguru</p>
-                        <p>Ruhango</p>
+                        <Link to="">
+                          <p>Gisagara</p>{" "}
+                        </Link>
+                        <Link to="">
+                          <p>Huye</p>
+                        </Link>
+                        <Link to="">
+                          <p>Kamonyi</p>
+                        </Link>
+                        <Link to="">
+                          <p>Muhanga</p>
+                        </Link>
+                        <Link to="">
+                          <p>Nyamagabe</p>
+                        </Link>
+                        <Link to="">
+                          <p>Nyanza</p>
+                        </Link>
+                        <Link to="">
+                          <p>Nyaruguru</p>
+                        </Link>
+                        <Link to="">
+                          <p>Ruhango</p>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -201,17 +247,17 @@ export default class ContentLocal extends Component {
         </div>
         <br />
         <div className="row">
-          <div className="col-md-10 col-md-3">
+          <div className="col-md-12 col-md-3">
             <div className="border-div">
-              <p className="content-text_">ANNOUNCEMENT</p>
+              <p className="content-text_">NEWS CONTENT</p>
             </div>
           </div>
         </div>
         <br />
         <div className="row">
-          <div className="col-md-10 col-md-3">
+          <div className="col-md-12 col-md-3">
             <div className="border-div">
-              <p className="content-text_">ANNOUNCEMENT</p>
+              <p className="content-text_">QUICK ANNOUNCEMENTS</p>
             </div>
           </div>
         </div>

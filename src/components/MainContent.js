@@ -26,13 +26,10 @@ export default class MainContent extends Component {
           <div className="col-md-9 col-sm-3">
             <p className="rwanda-text">Rwanda Gov</p>
             <p className="rwanda-subtext">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it.
+              This is the official website of the government of Rwanda.
             </p>
             <div class="border-div_">
-              <p className="content-text_ content_">CONTENT</p>
+              <p className="content-text_ content_">NEWS HEADLINES</p>
             </div>
           </div>
         </div>
@@ -41,7 +38,7 @@ export default class MainContent extends Component {
           <div className="col-sm-3" />
           <div className="col-md-9 col-md-3">
             <div class="border-div">
-              <p className="content-text_">ANNOUNCEMENT</p>
+              <p className="content-text_">NEWS CONTENT</p>
             </div>
           </div>
         </div>
@@ -50,7 +47,7 @@ export default class MainContent extends Component {
           <div className="col-sm-3" />
           <div className="col-md-9 col-md-3">
             <div class="border-div">
-              <p className="content-text_">ANNOUNCEMENT</p>
+              <p className="content-text_">QUICK ANNOUNCEMENTS</p>
             </div>
           </div>
         </div>

@@ -39,7 +39,49 @@ export default class NavBarMinaloc extends Component {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Ministries <b class="caret" />
+                        Programs <b class="caret" />
+                      </Link>
+                      <ul class="dropdown-menu center-drop-menu multi-column columns-3">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <ul class="multi-column-dropdown">
+                              <li>
+                                <Link to="#">Good governance</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Decentralization</Link>
+                              </li>
+                              <li>
+                                <Link to="#">Community Development</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-6">
+                            <ul class="multi-column-dropdown">
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Local finance</Link>
+                              </li>
+                              <li class="divider" />
+                              <li>
+                                <Link to="#">Social protection</Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <Link
+                        to=""
+                        className="nav-link dropdown-toggle"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Other Ministries <b class="caret" />
                       </Link>
                       <ul class="dropdown-menu center-drop-menu multi-column columns-3_">
                         <div class="row">
@@ -155,64 +197,8 @@ export default class NavBarMinaloc extends Component {
                                   Rwanda Development Board (RDB)
                                 </Link>
                               </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <Link
-                        to=""
-                        className="nav-link dropdown-toggle"
-                        id="navbarDropdownMenuLink"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Programs <b class="caret" />
-                      </Link>
-                      <ul class="dropdown-menu center-drop-menu multi-column columns-3">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <ul class="multi-column-dropdown">
-                              <li>
-                                <Link to="#">Action</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6">
-                            <ul class="multi-column-dropdown">
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Another action</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Another action</Link>
+                              <li style={{ paddingTop: "20px" }}>
+                                <Link to="/local-gov">Local Government</Link>
                               </li>
                             </ul>
                           </div>
@@ -237,42 +223,14 @@ export default class NavBarMinaloc extends Component {
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">EDPRS</Link>
                               </li>
                             </ul>
                           </div>
                           <div class="col-sm-6">
                             <ul class="multi-column-dropdown">
                               <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
-                              </li>
-                              <li class="divider" />
-                              <li>
-                                <Link to="#">Agence</Link>
+                                <Link to="#">Constitution</Link>
                               </li>
                             </ul>
                           </div>
